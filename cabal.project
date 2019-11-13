@@ -1,0 +1,7 @@
+packages: *.cabal
+
+source-repository-package
+  type: git
+  location: https://github.com/robx/hakyll
+  tag: e1b5910dd2bfc451b3074a890253d88dfc6a5ca4
+

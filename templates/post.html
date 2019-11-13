@@ -1,0 +1,16 @@
+<article>
+    <section class="header">
+        <time>$date$</time>
+        $if(author)$
+            by $author$
+        $endif$
+        $if(origlink)$
+            <span class="orig">
+                previously published at <a href="$origlink$">$origsite$</a>
+            </span>
+        $endif$
+    </section>
+    <section>
+        $body$
+    </section>
+</article>
